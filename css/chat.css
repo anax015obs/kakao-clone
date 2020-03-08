@@ -2,8 +2,11 @@
   padding: 0px;
 }
 
-.chat__body .header,
 .chat__body .status-bar {
+  padding: 10px 20px 0px 20px;
+}
+
+.chat__body .header {
   padding: 0px 20px;
 }
 
@@ -78,8 +81,8 @@
 }
 
 .incoming-message img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 45%;
   margin-right: 15px;
 }
