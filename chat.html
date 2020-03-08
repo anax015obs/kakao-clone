@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chat__body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -41,28 +41,44 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat__screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January11, 2019</span>
-        <li class="incomming-message message">
+        <li class="incoming-message message">
           <img src="./images/griffith.jpg" class="message-avatar" />
           <div class="message__content">
+            <span class="message__bubble">
+              you are belong to me.
+            </span>
             <span class="message__author">
               Griffith
             </span>
-            <div class="message__bubble">
-              you are belong to me.
-            </div>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incomming-message message">
-          <span class="message__timestamp"></span>
-          <div class="message__content">
+        <li class="sent-message message">
+          <span class="message__content">
             <div class="message__bubble">
               nope.
             </div>
+          </span>
+        </li>
+        <li class="incoming-message message">
+          <img src="./images/griffith.jpg" class="message-avatar" />
+          <div class="message__content">
+            <span class="message__bubble">
+              you are belong to me.
+            </span>
+            <span class="message__author">
+              Griffith
+            </span>
           </div>
+        </li>
+        <li class="sent-message message">
+          <span class="message__content">
+            <div class="message__bubble">
+              nope.
+            </div>
+          </span>
         </li>
       </ul>
     </main>
